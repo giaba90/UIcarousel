@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import UICarousel from "./components/UIcarousel/UIcarousel";
+import UInav from "./components/UInav";
 
 function App() {
   return (
     <div className="App">
-
+      <div className="container">
+        <UICarousel></UICarousel>
+        <UInav></UInav>
+      </div>
     </div>
   );
 }
